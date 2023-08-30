@@ -19,7 +19,7 @@ module.exports = {
     new ESLintPlugin(),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      //title: 'Template',
+      title: 'InterviewRPG',
       template: './src/index.html',
       inject: 'body'
     }),
