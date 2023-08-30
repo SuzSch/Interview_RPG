@@ -6,7 +6,7 @@
 <body>
     <div id="characterSelect">
         <h2>Choose you interview character, you bongo head.</h2>
-        <form id = "character">
+        <form id = "characterform">
             <input type="radio" id="Barbarian" name="character" value="Barbarian">
             <label for="Barbarian">Barbarian</label><br>
 
@@ -25,9 +25,13 @@
             <button type="submit"> Make your choice!</button>
         </form>
     </div>
-    <div class="hidden">
+    <div>
         <h3 id="name"></p>
-        <p id="hp"></p>
+        <div>
+            <p id="HP"></p>
+            <p id="Charisma"></p>
+            <p id="Rest"></p>
+        </div>
     </div>
 </body>
 </html>
