@@ -25,13 +25,48 @@
             <button type="submit"> Make your choice!</button>
         </form>
     </div>
-    <div>
-        <h3 id="name"></p>
+    <div id = "charaStats" class="hidden">
+        <h3 id="name"></h3>
+        <img id="profile">
         <div>
             <p id="HP"></p>
             <p id="Charisma"></p>
             <p id="Rest"></p>
+            <p id="Knowledge"></p>
+            <p id="Preparedness"></p>
+            <p id="Intimidation"></p>
+            <p id="Focus"></p>
         </div>
+    </div>
+    <div id="morning" class="hidden">
+        <h3>Morning routine</h3>
+        <p> You have a programming interview today. What will you do to prepare for this grueling battle of wits and might?</p>
+        <p>choose 2 options from the lists.</p>
+
+        <form id="morningForm">
+            <select id="task1">
+            <option value="coffee">Drink a cup of coffee</option>
+            <option value="study">Study programming techical questions</option>
+            <option value="meditate">Meditate for 20 minutes</option>
+            <option value="pump">Do 10 dead lifts with 200 pound weights</option>
+            <option value="shower">Take a extra long shower</option>
+            <option value="research">Research the company's history</option>
+            </select>
+
+            <select id="task2">
+                <option value="moreCoffee">Drink another cup of coffee</option>
+                <option value="notes">Look over your programming tomes</option>
+                <option value="pool">Spend 20 minutes in your sensory deprivation tank</option>
+                <option value="pose">Practice your power pose in the mirror</option>
+                <option value="garments">Iron your finest garment to wear</option>
+                <option value="stalk">Spy on interviewer to gain personl insight </option>
+                </select>
+                <button type="submit">Make your choices!</button>
+        </form>
+    </div>
+    <div id="statUp" class ="hidden">
+        <p>Well done! Some of your stats have gone up. Click the Ready button to get started with the interview!</p>
+        <button id="ready"> Ready!!</button>
     </div>
 </body>
 </html>

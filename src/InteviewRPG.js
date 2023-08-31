@@ -28,12 +28,12 @@ const changeStats = (prop) => {
     }
 }
 // Change skill stats
-export const drinkCoffee = changeStats("Rest")(2);
-export const studyMaterial = changeStats("Knowledge")(2);
-export const meditate = changeStats("Focus")(2);
-export const pumpIron = changeStats("Intimidation")(2);
-export const takeShower = changeStats("Charisma")(2);
-export const researchCompany = changeStats("Preparedness")(2);
+export const restUP = changeStats("Rest")(2);
+export const knowledgeUP = changeStats("Knowledge")(2);
+export const focusUP= changeStats("Focus")(2);
+export const intimidationUP= changeStats("Intimidation")(2);
+export const charismaUP = changeStats("Charisma")(2);
+export const prepUP = changeStats("Preparedness")(2);
 
 //Change HP
 
